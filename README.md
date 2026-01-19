@@ -1,4 +1,4 @@
-# cleverndbest4  
+2# cleverndbest4  
 Open Source Project Repository  
 Feature Requests · Bugs · Community Support  
 
@@ -98,5 +98,7 @@ cd cleverndbest4
     "express": "^4.18.2",
     "stripe": "^12.0.0"
   }
-}
+}# Node.js packages
+npm install @xenova/transformers openai dotenv
+
 npm install openai
