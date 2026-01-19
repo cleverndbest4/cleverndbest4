@@ -8,7 +8,7 @@ Closes #<issue-number>
 - [ ] Tests added or updated
 - [ ] CI passes
 - [ ] No unrelated changes
-- [ ] AI tools used to validate or optimize code
+- [ ] Automated AI tools used to validate or optimize code
 
 ## Notes
 Any details for reviewers.
