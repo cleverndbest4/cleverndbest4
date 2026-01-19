@@ -29,3 +29,4 @@ The project is designed for reliability, transparency, and scalable development 
 ```bash
 npm install
 npm run test
+4. Scroll down → **Commit changes** → commit message:
