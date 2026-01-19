@@ -1,61 +1,111 @@
-Visual Studio Code - Open Source ("Code - OSS")
-Feature Requests Bugs Gitter
-
+cleverndbest4
+Open Source Project Repository
+Feature Requests · Bugs · Community Support
 The Repository
-This repository ("Code - OSS") is where we (Microsoft) develop the Visual Studio Code product together with the community. Not only do we work on code and issues here, we also publish our roadmap, monthly iteration plans, and our endgame plans. This source code is available to everyone under the standard MIT license.
-
-Visual Studio Code
-VS Code in action
-
-Visual Studio Code is a distribution of the Code - OSS repository with Microsoft-specific customizations released under a traditional Microsoft product license.
-
-Visual Studio Code combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive code editing, navigation, and understanding support along with lightweight debugging, a rich extensibility model, and lightweight integration with existing tools.
-
-Visual Studio Code is updated monthly with new features and bug fixes. You can download it for Windows, macOS, and Linux on Visual Studio Code's website. To get the latest releases every day, install the Insiders build.
-
+This repository (cleverndbest4) is where this project is developed together with the community.
+In addition to code and issues, this repository hosts:
+The project roadmap
+Iteration plans
+Feature proposals
+Automation workflows
+Release processes
+The source code is available to everyone under the MIT License.
+Project Overview
+This project focuses on building a modern, automation-ready, open-source workflow using:
+GitHub Issues
+GitHub Actions
+Pull Requests
+Labels and Templates
+Controlled Releases
+AI-assisted workflows (via GitHub tools)
+It is designed to maintain:
+Code quality
+Transparent tracking
+Safe releases
+Continuous integration
+Community collaboration
+Features
+Automated CI pipelines using GitHub Actions
+Issue templates for bugs and feature requests
+Pull request templates for clean reviews
+Label-based workflow tracking
+Manual, controlled releases
+AI-friendly development structure
+Clean contribution guidelines
+Getting Started
+Clone the repository:
+Copy code
+Bash
+git clone https://github.com/cleverndbest4/cleverndbest4.git
+cd cleverndbest4
+Install dependencies (if applicable):
+Copy code
+Bash
+npm install
+Run tests:
+Copy code
+Bash
+npm run test
+GitHub CLI Installation (Linux / Ubuntu / Debian)
+Use the following commands to install the GitHub CLI (gh):
+Copy code
+Bash
+type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
+&& sudo mkdir -p -m 755 /etc/apt/keyrings \
+&& out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \
+&& cat $out | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
+&& sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
+&& sudo mkdir -p -m 755 /etc/apt/sources.list.d \
+&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+&& sudo apt update \
+&& sudo apt install gh -y
+Verify installation:
+Copy code
+Bash
+gh --version
 Contributing
-There are many ways in which you can participate in this project, for example:
-
-Submit bugs and feature requests, and help us verify as they are checked in
-Review source code changes
-Review the documentation and make pull requests for anything from typos to additional and new content
-If you are interested in fixing issues and contributing directly to the code base, please see the document How to Contribute, which covers the following:
-
-How to build and run from source
-The development workflow, including debugging and running tests
-Coding guidelines
-Submitting pull requests
-Finding an issue to work on
-Contributing to translations
-Feedback
-Ask a question on Stack Overflow
-Request a new feature
-Upvote popular feature requests
-File an issue
-Connect with the extension author community on GitHub Discussions or Slack
-Follow @code and let us know what you think!
-See our wiki for a description of each of these channels and information on some other available community-driven channels.
-
+There are many ways to participate in this project:
+Submit bugs and feature requests
+Review pull requests
+Improve documentation
+Propose new features
+Enhance automation workflows
+Improve test coverage
+If you plan to contribute code, please follow these steps:
+Fork the repository
+Create a feature branch
+Commit your changes
+Open a pull request
+Development Workflow
+Issues define work
+Labels define status and type
+Pull Requests implement work
+CI validates changes
+Releases are manual and controlled
+Feedback and Support
+File an issue for bugs
+Submit feature requests
+Upvote existing proposals
+Ask questions using GitHub Issues
+Join discussions (if enabled)
 Related Projects
-Many of the core components and extensions to VS Code live in their own repositories on GitHub. For example, the node debug adapter and the mono debug adapter repositories are separate from each other. For a complete list, please visit the Related Projects page on our wiki.
-
-Bundled Extensions
-VS Code includes a set of built-in extensions located in the extensions folder, including grammars and snippets for many languages. Extensions that provide rich language support (inline suggestions, Go to Definition) for a language have the suffix language-features. For example, the json extension provides coloring for JSON and the json-language-features extension provides rich language support for JSON.
-
-Development Container
-This repository includes a Visual Studio Code Dev Containers / GitHub Codespaces development container.
-
-For Dev Containers, use the Dev Containers: Clone Repository in Container Volume... command which creates a Docker volume for better disk I/O on macOS and Windows.
-
-If you already have VS Code and Docker installed, you can also click here to get started. This will cause VS Code to automatically install the Dev Containers extension if needed, clone the source code into a container volume, and spin up a dev container for use.
-For Codespaces, install the GitHub Codespaces extension in VS Code, and use the Codespaces: Create New Codespace command.
-
-Docker / the Codespace should have at least 4 Cores and 6 GB of RAM (8 GB recommended) to run a full build. See the development container README for more information.
-
+Core components, extensions, and tools may live in separate repositories.
+Related tools and automation scripts will be linked here as the ecosystem grows.
+Development Environment
+This repository supports:
+Local development
+GitHub Codespaces
+Dev Containers
+Minimum recommended resources:
+4 CPU cores
+6 GB RAM (8 GB recommended)
 Code of Conduct
-This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.
-
+This project follows a standard open-source Code of Conduct.
+All contributors are expected to:
+Be respectful
+Be inclusive
+Collaborate constructively
 License
-Copyright (c) Microsoft Corporation. All rights reserved.
-
-Licensed under the MIT license.
+Copyright (c) 2026
+All rights reserved.
+Licensed under the MIT License.
