@@ -1,27 +1,54 @@
 ---
-name: Bug Report
-about: Report a real defect or failure
-labels: 🐞 bug
+name: 🐞 Bug Report
+about: Report a real defect affecting workflows, builds, UI, or automation
+title: "[BUG] "
+labels: bug, needs-triage, workflow
+assignees: ''
 ---
 
-## Description
-Clearly describe the problem and its impact.
+# 🐞 Bug Report
 
-## Steps to Reproduce
-1. Step one
-2. Step two
-3. Step three
+## 🔍 Summary
+Provide a clear, concise description of the problem.
 
-## Expected Behavior
-What should happen.
+---
 
-## Actual Behavior
-What actually happens.
+## 🧭 Affected Area
+(Select all that apply)
 
-## Environment
-- OS:
-- Runtime:
-- Workflow (if applicable):
+- [ ] CI / GitHub Actions  
+- [ ] UI / Frontend  
+- [ ] Backend / API  
+- [ ] Packaging / Release  
+- [ ] Infrastructure  
+- [ ] Security  
+- [ ] Documentation  
 
-## Additional Context
-Logs, screenshots, or links.
+---
+
+## 📖 Description
+Describe what is happening and why it is a problem.
+
+---
+
+## 🔁 Steps to Reproduce
+
+1. Push code to `main`  
+2. Observe GitHub Actions workflow execution  
+3. Review the failing step logs  
+
+---
+
+## ✅ Expected Behavior
+What should happen when everything works correctly?
+
+---
+
+## ❌ Actual Behavior
+What actually happens?
+
+---
+
+## 📜 Logs / Error Output
+
+Paste relevant logs below:
