@@ -1,16 +1,19 @@
-## Hi there 👋
+# Project Overview
 
-<!--
-**cleverndbest4/cleverndbest4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repository contains a production-ready project with automated testing, packaging, and controlled releases using GitHub Actions.
 
-Here are some ideas to get you started:
+## Purpose
+- Maintain code quality through CI
+- Prevent accidental releases
+- Track work transparently using Issues and Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Workflow Summary
+- Issues define work
+- Pull Requests implement work
+- CI validates work
+- Releases are manual and controlled
+
+## Getting Started
+```bash
+npm install
+npm run test
