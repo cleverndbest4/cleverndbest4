@@ -30,3 +30,9 @@ The project is designed for reliability, transparency, and scalable development 
 npm install
 npm run test
 4. Scroll down → **Commit changes** → commit message:
+---
+
+# STEP 2 — ENSURE ISSUE TEMPLATES EXIST
+
+1. Inside your repo → **Code tab** → **Add file → Create new file**  
+2. File name:
