@@ -1,7 +1,7 @@
 ---
 name: Feature Request
 about: Propose a new capability or improvement
-labels: enhancement
+labels: ✨ enhancement
 ---
 
 ## Description
@@ -14,5 +14,4 @@ Explain how this will be used.
 High-level approach.
 
 ## Additional Context
-Related issues or workflows.
-Add feature request template
+Related issues or links.
