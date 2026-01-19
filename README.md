@@ -84,3 +84,18 @@ Welcome to cleverndbest4! This is a user-friendly, AI-assisted workflow app with
 ```bash
 git clone https://github.com/cleverndbest4/cleverndbest4.git
 cd cleverndbest4
+{
+  "name": "cleverndbest4",
+  "version": "1.0.0",
+  "description": "AI-assisted workflow platform with premium features",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo 'Add tests here'"
+  },
+  "dependencies": {
+    "@copilotkit/react-core": "^latest",
+    "express": "^4.18.2",
+    "stripe": "^12.0.0"
+  }
+}
