@@ -1,5 +1,3 @@
-**Paste this:**
-
 ```markdown
 ---
 name: Bug Report
