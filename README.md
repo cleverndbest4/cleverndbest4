@@ -67,3 +67,20 @@ Once enabled:
 ```bash
 git clone https://github.com/cleverndbest4/cleverndbest4.git
 cd cleverndbest4
+# cleverndbest4 - Open Source AI Workflow Platform
+
+Welcome to cleverndbest4! This is a user-friendly, AI-assisted workflow app with free and premium features.
+
+## Features
+- Free features for all users
+- Premium AI tools and automation
+- Interactive dashboard
+- GitHub Actions CI/CD
+- Controlled release workflow
+- Facebook & WhatsApp links for following
+
+## Get Started
+1. Clone repository:
+```bash
+git clone https://github.com/cleverndbest4/cleverndbest4.git
+cd cleverndbest4
