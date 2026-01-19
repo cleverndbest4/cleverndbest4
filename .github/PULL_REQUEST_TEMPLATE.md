@@ -1,14 +1,40 @@
-## Description
-Explain what this change does.
+# 📦 Pull Request
 
-## Related Issue
-Closes #<issue-number>
+## 🔍 Summary
+Describe what this PR does.
 
-## Checklist
-- [ ] Tests added or updated
-- [ ] CI passes
-- [ ] No unrelated changes
-- [ ] Automated AI tools used to validate or optimize code
+---
 
-## Notes
-Any details for reviewers.
+## 🧪 Changes Made
+-  
+-  
+-  
+
+---
+
+## 🧩 Related Issues
+Fixes #
+
+---
+
+## ✅ Checklist
+
+- [ ] Code builds successfully  
+- [ ] Tests added or updated  
+- [ ] Documentation updated  
+- [ ] No breaking changes  
+- [ ] CI passes  
+
+---
+
+## 🚨 Risk Assessment
+Low / Medium / High
+
+---
+
+## 🤖 Automation Impact
+Does this affect CI, releases, or workflows?
+
+---
+
+## 🧑‍💻 Maintainer Notes
