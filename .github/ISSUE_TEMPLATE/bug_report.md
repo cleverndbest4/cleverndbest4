@@ -1,3 +1,6 @@
+**Paste this:**
+
+```markdown
 ---
 name: Bug Report
 about: Report a real defect or failure
@@ -25,4 +28,3 @@ What actually happens.
 
 ## Additional Context
 Logs, screenshots, or links.
-Add bug issue template
