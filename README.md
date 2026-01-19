@@ -99,3 +99,4 @@ cd cleverndbest4
     "stripe": "^12.0.0"
   }
 }
+npm install openai
