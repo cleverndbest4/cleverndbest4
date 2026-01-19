@@ -1,8 +1,7 @@
-```markdown
 ---
 name: Bug Report
 about: Report a real defect or failure
-labels: bug
+labels: 🐞 bug
 ---
 
 ## Description
